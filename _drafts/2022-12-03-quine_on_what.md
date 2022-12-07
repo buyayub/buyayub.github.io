@@ -28,7 +28,7 @@ The naive answer is to say that all that there is, is everything. However Quine'
 
 ### Something exists by virtue of reference
 
-He moves on to discuss disagreements in ontology. McX believes something exists, and the Narrator believes something doesn't. However, when the Narrator says that McX believes in something that doesn't exist, then it must exist for it _not to exist_. i.e. If I say something doesn't exist, it exists by virtue of it being referenced.
+He moves on to discuss disagreements in ontology. In a hypothetical, McX believes something exists, and Quine believes something doesn't. However, when Quene says that McX believes in something that doesn't exist, then it must exist for it _not to exist_. i.e. If I say something doesn't exist, it exists by virtue of it being referenced.
 
 That's the gist, however I want to note this quote:
 
@@ -86,13 +86,12 @@ In such a case, he offers that a Fregean or some form of modal logical treatment
 
 He says that all this seems a return to McX's belief, in that it must exist by reference, which he's shown is erroneous.
 
-The second is that we can give an instance of something that simply can't exist, for example a Round Square Cupola on Berkeley College, which is self-contradictory.
+The second is that we can give an instance of something that simply can't exist, for example a "round square cupola on Berkeley College", which is self-contradictory (round square).
 
 Wyman can reply that the round square cupola is meaningless, since it makes no sense.
 
-Quine then argues for the meaning of contradictions. The meaninglessness of contradictions, Quine says, <abbr class="pn_ann"> makes it impossible to devise an effective test of what is meaningful and what is not</abbr>. For example, whether a string of letters makes sense or not.
+Quine then argues for the meaning of contradictions. The meaninglessness of contradictions, Quine says, <abbr class="pn_ann"><button class="mark">makes it impossible to devise an effective test of what is meaningful and what is not</button><button class="dfn" markdown="span"> He references [Alonzo Church's "A note on the Entscheidungsproblem"](/scripture/church_a_note) as proof.</button></abbr>. For example, whether a string of letters makes sense or not.
 
-He references Alonzo Church's "A note on the Entscheidungsproblem." from the Journal of Symbolic Logic, who he says proved it.
 
 ### Bringing in Russell
 
@@ -106,7 +105,14 @@ The names that Russell's theory applies to are _complex descriptive names_, like
 -   They were a poet
 -   Nothing else wrote waverly
 
-The seeming name ("The author of Waverly") is paraphrased in context as an _incomplete symbol_, where no unified expression is offered to analyze it. The phrase as a whole ("The author of Waverly was a poet", which is the context of the name), regardless gets its full quota of meaning, whether true or false.
+The seeming name ("The author of Waverly") is called an <abbr class="pn_ann"><button class="mark" markdown="span">_incomplete symbol_</button><button class="dfn">"Term used by Russell to describe definite descriptions and other expressions which have the feature that they cannot be defined in isolation, but only by means of giving an analysis of any entire sentence in which they are embedded." - [Oxford reference](https://www.oxfordreference.com/view/10.1093/oi/authority.20110803100000539) </button></abbr>, where you can't analyze the expression by itself. The phrase as a whole ("The author of Waverly was a poet", which is the context of the name) is meaningful regardless, whether true or false.
+
+<details markdown="block" class="pn_note">
+<summary markdown="span"> Incomplete Symbol </summary>
+
+You can read Russell's [work on descriptive names](https://users.drew.edu/~jlenz/br-logical-atomism6.html) where he defines the incomplete symbol better than I can do.
+
+</details>
 
 Both McX and Wyman say that "the author of Waverly" requires objective reference in order to be meaningful at all.
 

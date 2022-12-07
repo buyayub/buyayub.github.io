@@ -1,0 +1,78 @@
+# Knoweldge Graph for Computer Science
+
+# ------  FIELD ------ #
+
+# Naming convention for field identifier: singular, lowercase, no "theory", reflects basic or most popular name
+# Always add null to empty variables to prevent array confusion
+# Structure:
+#   name:           string
+#   alias:          [string]
+#   description:    string
+#   parent:         [string/ref] // (ref)erence
+#   child:          [string/ref]
+#   textbook:       [key/ref]
+
+field:
+  - id: "computer_science"
+    name: "Computer Science"
+    description: "Computer science is the study of computation, automation, and information. Computer science spans theoretical disciplines (such as algorithms, theory of computation, information theory, and automation) to practical disciplines (including the design and implementation of hardware and software). Computer science is generally considered an area of academic research and distinct from computer programming."
+    parent: null
+    child:
+      - coding
+
+  # FIRST LEVEL
+  #   - coding (theory)
+  #   - information (theory)
+  #   -
+
+  - id: "coding"
+    name: "Coding Theory"
+    alias:
+      - "Algebraic Coding Theory"
+    description: "Coding theory is the study of the properties of codes and their respective fitness for specific applications. Codes are used for data compression, cryptography, error detection and correction, data transmission and data storage."
+    parent:
+      - computer_science
+    child:
+      - data_compression
+    textbook:
+      - essential_coding_theory
+      - introduction_to_coding_theory
+
+  - id: "information"
+    name: "Information Theory"
+    alias: null
+    description: "Information theory is the scientific study of the quantification, storage, and communication of information."
+    parent:
+      - computer_science
+    child:
+      - data_compression
+    textbook: null
+
+  # SECOND LEVEL
+  #   - data compression (coding, information)
+  #   -
+
+  - id: "data_compression"
+    name: "Data Compression"
+    description: "The process of encoding information using fewer bits than the original representation."
+    alias:
+      - "Source Coding"
+      - "Bit-rate Reduction"
+    parent:
+      - coding
+      - information
+    child:
+      - image_compression
+      - audio_compression
+      - video_compression
+
+textbook:
+  - id: "essential_coding_theory"
+    name: "Essential Coding Theory"
+    url:
+      - "https://cse.buffalo.edu/faculty/atri/courses/coding-theory/book/web-coding-book.pdf"
+  - id: "introduction_to_coding_theory"
+    name: "Introduction to Coding Theory"
+    isbn: "978-0-521-84504-5"
+    url:
+      - "https://pce-fet.com/common/library/books/34/4141_[Ron_Roth]_Introduction_to_Coding_Theory(b-ok.org).pdf"

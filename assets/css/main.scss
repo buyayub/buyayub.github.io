@@ -102,6 +102,19 @@ pre {
 	border: 1px dashed grey;
 }
 
+.page__content .footnotes {
+	p, ol {
+		font-size: 1em;
+	}
+
+	li {
+		font-size: 0.7em;
+		p {
+			margin-bottom: 0px;
+		}
+	}
+}
+
 /* HOVER NOTES */
 
 abbr.pn_ann {
@@ -135,7 +148,7 @@ abbr.pn_ann > .mark + button.dfn {
 	display: block;
 	padding: 1em;
 	font-size: 14px;
-	min-width: 200px;
+	min-width: 256px;
 	opacity: 0;
 	user-select: text;
 }
@@ -207,9 +220,14 @@ details[open].pn_note summary ~ p {
 
 /* KATEX */
 
-// weird jekyll-katex bug
-
 .katex-html {
 	display: none;
 }
 
+a.footnote {
+	color: #f54e8e;
+}
+
+math {
+	font-size: 1.1em;
+}

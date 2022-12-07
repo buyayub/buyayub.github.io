@@ -1,0 +1,775 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>My Progamming Language - Ayub’s Blog</title>
+<meta name="description" content="My writing on “reigning” a computer comes with a great question: where on earth do I start? The issue comes by the chasm between application and theory, and the many bridges crossing it.">
+
+
+  <meta name="author" content="Ayub Elwhishi">
+  
+  <meta property="article:author" content="Ayub Elwhishi">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Ayub's Blog">
+<meta property="og:title" content="My Progamming Language">
+<meta property="og:url" content="http://localhost:4000/programming_language/">
+
+
+  <meta property="og:description" content="My writing on “reigning” a computer comes with a great question: where on earth do I start? The issue comes by the chasm between application and theory, and the many bridges crossing it.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2022-12-02T00:00:00-05:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/programming_language/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Ayub Elwhishi",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Ayub's Blog Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <link
+	rel="apple-touch-icon"
+	sizes="180x180"
+	href="/assets/apple-touch-icon.png"
+/>
+<link
+	rel="icon"
+	type="image/png"
+	sizes="32x32"
+	href="/assets/favicon-32x32.png"
+/>
+<link
+	rel="icon"
+	type="image/png"
+	sizes="16x16"
+	href="/assets/favicon-16x16.png"
+/>
+<link rel="manifest" href="/assets/site.webmanifest" />
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/logo.png" alt="Ayub's Blog"></a>
+        
+        <a class="site-title" href="/">
+          Ayub's Blog
+          <span class="site-subtitle">I write about programming, philosophy, and literature.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/posts/">Posts</a>
+            </li><li class="masthead__menu-item">
+              <a href="/notes/">Notes</a>
+            </li><li class="masthead__menu-item">
+              <a href="/scripture/">Scripture</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/me.webp" alt="Ayub Elwhishi" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Ayub Elwhishi</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Developer from Libya. Currently in college.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Kitchener, Ontario</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/buyayub" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+        
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:alloycipher@gmail.com">
+            <meta itemprop="email" content="alloycipher@gmail.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="My Progamming Language">
+    <meta itemprop="description" content="My writing on “reigning” a computer comes with a great question: where on earth do I start? The issue comes by the chasm between application and theory, and the many bridges crossing it.">
+    <meta itemprop="datePublished" content="2022-12-02T00:00:00-05:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">My Progamming Language
+</h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          10 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#type-system">Type System</a></li><li><a href="#lisp-like-macro-system">Lisp-like Macro System</a></li><li><a href="#concurrency--temporal-logic">Concurrency &amp; Temporal Logic</a><ul><li><a href="#temporal-logic">Temporal Logic</a></li><li><a href="#having-fun-with-this">Having Fun with This</a></li></ul></li><li><a href="#objects--ontology">Objects &amp; Ontology</a></li><li><a href="#probability--modality">Probability &amp; Modality</a></li><li><a href="#self-modifying">Self-Modifying</a></li><li><a href="#graph-inspired-constructions">Graph Inspired Constructions?</a></li><li><a href="#ontology-and-merology">Ontology and Merology</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <p>My writing on “reigning” a computer comes with a great question: where on earth do I start? The issue comes by the chasm between application and theory, and the many bridges crossing it.</p>
+
+<p>After a bit of soul searching, I thought the funnest way to start is by writing my own programming language. I can use the language to create libraries in that language, applying to whatever domain of computer science I can think of. So if I’m learning data structures and algorithms, I’d find use writing for my language there.</p>
+
+<p>It’s all just assembly in the end.</p>
+
+<p>But I never do good with blank slates, for as soon as I start to imagine, I start climbing mountains. It doesn’t help that I’m reading on ontology now, and so the thought of creating a programming language has me enter into questions about meaning, entities, causation, and so on.</p>
+
+<p>It’s become overwhelming how similar yet different everything is: Name, variable, symbol, pointer, reference, object. I don’t know where to start and where to begin.</p>
+
+<p>I also asked myself, is code, data, and is data, code? It feels a perverse coupling. It’s like saying time is a substance. But it is, isn’t it? When we look at a function, we can create a derivative from, showing substantive representation of its change. Likewise, if we say x is position, and y is time, then isn’t y itself a substance as much as a position is? But no, position is an attribute.</p>
+
+<p>The functions of x and y can’t be entities, but attributes rather. The height of something over time, the height of something with respect to its distance from something. A relation is between the attributes of an entity. So time another attribute?</p>
+
+<p>My head hurts. I’ll leave my own philosophizing for later, as I respect the field and I want to read more to catch up on its discussion. I don’t want to corner myself into more preconceptions than I already have when approaching it.</p>
+
+<p>But that doesn’t help me figure out my programming language. I’m granted time, for now, to simply take in knowledge on programming language. I’ll want to go back to linguistics and learn some syntax. I’ll also want to spend some time with interesting languages like Lisp and what not. It gives me opportunity to imagine the perfect language I could try to implement.</p>
+
+<h2 id="type-system">Type System</h2>
+
+<p>I dislike the idea of native type systems, and I want to go to as basic as I can get it. In assembly, you are (typically) thrust upon three inherent types of data to which operations are provided for: integer, logic (bitwise), and floating point.</p>
+
+<p>What I mean by that is: you have integer operations (in binary representation), you have bitwise operations (logical operations), and you have floating point operations (<code class="language-plaintext highlighter-rouge">fadd</code>). I don’t know why people keep answering that assembly doesn’t have native types. If it has operations done under an assumed representation, it has native data types.</p>
+
+<p>I think my confusion comes from the fact that I got used to implicit variable types in langauges like Python and JS, so I don’t see type restriction inherent in typing systems anymore. Regardless, anyone who uses assembly will recognize that someone using integer operations on a floating point value will muck up their numbers, so I declare that types are implicit in contemporary assembly, and the only pure non-typed instruction set would be one that purely uses bitwise operations.</p>
+
+<p>The addition of the other two types creates a bit of efficiency and complexity. I’d love to write in pure logic but I’d be a bit insane to implement addition using bitwise operations when I can just use an add instruction natively. It’s far more efficient too, since bitwise operations work on the whole byte.</p>
+
+<p>Same goes with floating point arithmetic. So it seems you need to use those data types in assembly.</p>
+
+<p>However, <em>my language</em> doesn’t need to. Individual bit operations provides the basic form of all circuit operations. The issue would be to create a compiler that can recognize bitwise operations as other forms of instructions, and optimize for it. It shouldn’t be too difficult, I hope, as arithmetic and other operations are implemented using logic gates, there must be some syntactic way to recognize it.</p>
+
+<p>It seems insane, but the idea is to build up other types using the basic bit type.</p>
+
+<h2 id="lisp-like-macro-system">Lisp-like Macro System</h2>
+
+<p>I’m inspired by metaprogramming to create an ability to expand the syntax, which explains why there’s only one native type. The user is allowed to define new aspects of the grammar, and employ new operations.</p>
+
+<p>A problem would be representing the differences between operations and data. In lisp, it’s fairly easy since it’s positional. I dislike lisp’s syntax, however, because it’s a bit counter intuitive and prefer a more natural syntax. Python probably has the most intuitive syntax, but personally C itself is fairly easy to read because it’s terse.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>int x = 42;
+int y = x + 42;
+
+let int x equal 42
+let int y equal x + 42
+</code></pre></div></div>
+
+<p>I can go like javascript and lisp and just have an <code class="language-plaintext highlighter-rouge">eval</code> type statement that represents the code, and provide a way to represent it differently, but I’m unsure of how it’d work. My gripe is the syntax of it. Let’s break it down a bit more.</p>
+
+<p>You’d have to have the ability to modify the automaton, essentially.</p>
+
+<p>But it should be fairly simple, when you think of it. If we go to C syntax, every line is essentially a statement.</p>
+
+<p>so</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>int x = 42; // is a statement
+</code></pre></div></div>
+
+<p>Lets say we create a construct which defines the grammar for a statement. So lets say I want an operator which adds all following values together.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>macro: 
+type var [:=] value ...; { 
+	var = value + ...;
+}
+</code></pre></div></div>
+
+<p>Which means that <code class="language-plaintext highlighter-rouge">int_8 x := 34 14 15 19;</code>. In the definition <code class="language-plaintext highlighter-rouge">type</code> is the signifier for the type variable, so the user can lay down what type they have, the var represents the symbol of the varable. <code class="language-plaintext highlighter-rouge">[:=]</code> defines the operator’s symbols, and <code class="language-plaintext highlighter-rouge">value</code> is just the name for the base type, which I guess can be inherited by other types? The definition follows on previous syntactical rules and <code class="language-plaintext highlighter-rouge">...</code> is just the construct for rolling out something I guess.</p>
+
+<p>Let me make an addition statement as well.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>macro:
+(var op[+] var) {
+	...bitwise operation for it
+}	
+</code></pre></div></div>
+
+<p>I guess this is an enclosed expression, so it can be embedded into statements (<code class="language-plaintext highlighter-rouge">x = y + z</code>). I guess it goes on a right to left operand as well. How does it evaluate brackets? Bracket notation will just have to be meta, so it will always evaluate that expression first.</p>
+
+<p>I’ll want to go into syntax a bit on this for sure. It’s clear some form of regular expression is used to define it. To make something evaluable at runtime:</p>
+
+<h2 id="concurrency--temporal-logic">Concurrency &amp; Temporal Logic</h2>
+
+<p>Serial programming is archaic, and I want to create a language that is more interesting than a -&gt; b -&gt; c.</p>
+
+<p>My experience with concurrent programming isn’t multi-threaded. It’s javascript async functions, so I probably want to go exploring threads before I do anything, but perhaps my ignorance on the topic will give me more interesting ideas so I’ll seek to exploit that when I can.</p>
+
+<p>JS async functions are fun to use, but they’re not multi-threaded proper, and you can’t manipulate the ins and outs of em much.</p>
+
+<p>I thought to use a different theory <a href="">I wrote</a> with regards to plot-lines in literary analysis. It’s hard to explain fully, but as a person reads a book, they construct multiple plotlines which are (in the theory) observed from the different entities within the story. Entities includes anything, from inanimate objects (Ring of Power) to characters (Bilbo).</p>
+
+<p>It’s technically single processed, as it’s a single reader processing the book, but if we can add multiple books in the same <em>world</em>, which allow multiple readers to each interact and construct the world individually. These readers can then communicate with one another what happens, but that’s where the analogy dies.</p>
+
+<p>My idea is to have scopes (think set theory, or boxes) where entities in those scopes are limited to those scopes, both outside, from an internal scope. Entities can exit or enter a scope. They all exist inside a general scope.</p>
+
+<p>The beautiful thing about it is the interactions between scopes. Scopes have a series of instructions that they run through. I should probably write what I mean right now to make things make sense.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>int x = 5;  
+
+scope A (int count) { // define the scope or function really  
+	while (p &lt; count) {
+		int p = 0;
+		point pt_1;
+	}
+	
+	if (p &lt; x) wait; // error, because x doesn't exist, even when nested
+
+	if (p == 4) wait;
+	
+	die; // default if unspecified, kills the scope after it finishes executing
+}
+
+A(x); // execute scope
+
+operation add -&gt; A {  // define operation in A's context, p is kept 
+	int p = (int p);
+	if (p &lt; 5) p++;
+	wait;
+}
+
+send add and execute; // sends and executes right away. If the scope is in the middle of the while loop, then it will execute then.
+	// if it can't find anything (i.e. it can't find p's definition) then it returns an error. 
+send add at pt_1; // sends the operation at pt_1 and executes, if it finds it;
+send add and wait for wait; // sends and waits for a wait. When it gets to the wait, it executes.
+send add and wait for definition; // sends and if any anything is undefined, then it waits until it is defined.
+
+</code></pre></div></div>
+
+<p>It seems bad coding practice to be able to reference and modify things inside the scope, but my purpose is to make a natural and interesting language, not a clean language. The idea is that you send someone into a room, and they do things for you while you handle your own stuff. You should know what’s in the room before you send someone to modify the stuff inside it.</p>
+
+<p>When the scope dies, it’s released from memory and no longer persists.</p>
+
+<p>Can we expand this?</p>
+
+<p>What if we have things that connect between rooms? Like a light switch in one room, and a light bulb in another. Thus, it involves shared state.</p>
+
+<p>This is very similar to the actor model of concurrency, but in a more meta-programming type of way, since we’re literally modifying the instructions. We also have the idea of rooms rather than only actors, where actors can go into a room, do stuff within the room, leave. The issue is that actors can’t usually persist outside their room, which me be something we want to do. So we can send an object somewhere, with a script of action?</p>
+
+<p>I think one way to solve the differences in scope is the have a sort of interface between rooms. But at what point am I just recreating objects? The interface would rather be something like entering a scope. To see how far I can go modifying a scope, I’ll want to see what threads can really do.</p>
+
+<h3 id="temporal-logic">Temporal Logic</h3>
+
+<p>The issue with coding temporal logic in compsci is reliability, even if going off the computer’s dimension of time (clock cycles).</p>
+
+<p>Time would have to be simulated by the language itself.</p>
+
+<h3 id="having-fun-with-this">Having Fun with This</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>while (true) {
+	scope A (void) {
+		while (true) {
+			;
+		}
+	}
+	A();
+}
+</code></pre></div></div>
+
+<p>This prints out an endless number of persistent scopes.</p>
+
+<h2 id="objects--ontology">Objects &amp; Ontology</h2>
+
+<p>Objects are a very metaphysical (if not semantic) construct, which I think added to their popularity. It’s a natural way of thinking, seeing something smaller, and building it up. So why haven’t objects really leant themselves to artificial intelligence?</p>
+
+<h2 id="probability--modality">Probability &amp; Modality</h2>
+
+<p>Probability is always an interesting</p>
+
+<h2 id="self-modifying">Self-Modifying</h2>
+
+<p>I want to add the ability to self-modify.</p>
+
+<p>It’d have to be additive rather than truly self-modifying. i.e. when a new definition is made, it creates new instructions in memory and apply the variable to it rather than rewrite the current ones.</p>
+
+<h2 id="graph-inspired-constructions">Graph Inspired Constructions?</h2>
+
+<p>Graphs have always seemed to be the most intuitive.</p>
+
+<h2 id="ontology-and-merology">Ontology and Merology</h2>
+
+<p>Merology is the study of parts and wholes.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-12-02T00:00:00-05:00">December 2, 2022</time></p>
+
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/searle/" class="pagination--pager" title="Searle
+">Previous</a>
+    
+    
+      <a href="/plot_analysis/" class="pagination--pager" title="Plot Analysis
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/my_knowledge_map/" rel="permalink">Mastery and Knowledge Mapping
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">An overview of my academic knowledge map, making the data traversable to master a field in a meticulous and holistic fashion.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/quine_on_what/" rel="permalink">Quine, On What There Is
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          14 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Summarization
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/plot_analysis/" rel="permalink">Plot Analysis
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Intro
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/searle/" rel="permalink">Searle
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">My Analysis of Searle’s Chinese Room
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Ayub Elwhishi. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

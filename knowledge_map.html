@@ -1,0 +1,46 @@
+---
+---
+
+{% assign kn_data = site.data.comp_sci %}
+{% assign fields = kn_data['field'] %}
+{% assign textbooks = kn_data['textbook'] %}
+
+<h2> Fields </h2>
+{% for field in fields %}
+	<div id={{field.id}}>
+		<h3>{{field.name}}</h3>
+		<p>Description: {{field.description}}</p>
+		<p> Parents: </p>
+		{% for parentName in field.parent%} 
+			{% assign parentList = fields | where: "id", parentName%}
+			<ul>
+			{% for parent in parentList%}
+				<li><a href="#{{parent.id}}">{{parent.name}}</a></li>
+			{% endfor %}
+			</ul>
+		{% endfor %} 
+		<p> Children: </p>
+		{% for childName in field.child%} 
+			{% assign childList = fields | where: "id", childName %}
+			<ul>
+			{% for child in childList %}
+				<li><a href="#{{child.id}}"> {{child.name}} </a></li>
+			{% endfor %}
+			</ul>
+		{% endfor %} 
+		<p> Textbooks: </p>
+		{% for textName in field.textbook%} 
+			{% assign textList = textbooks | where: "id", textName %}
+			<ul>
+			{% for text in textList%}
+				<li>{{text.name}}</li>
+				<ul>
+					{% for url in text.url %}
+						<li><a href={{url}}>{{ url }}</a></li>
+					{% endfor %}
+				</ul>
+			{% endfor %}
+			</ul>
+		{% endfor %} 
+	</div>
+{% endfor %}

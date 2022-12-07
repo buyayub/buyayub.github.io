@@ -1,0 +1,933 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>To Reign a Computer (WIP) - Ayub’s Blog</title>
+<meta name="description" content="A detailed exploration of mastering my computer. It’s meant to be a personal map, but feel free to check it out.">
+
+
+  <meta name="author" content="Ayub Elwhishi">
+  
+  <meta property="article:author" content="Ayub Elwhishi">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Ayub's Blog">
+<meta property="og:title" content="To Reign a Computer (WIP)">
+<meta property="og:url" content="http://localhost:4000/to-reign/">
+
+
+  <meta property="og:description" content="A detailed exploration of mastering my computer. It’s meant to be a personal map, but feel free to check it out.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2022-10-17T00:00:00-04:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/to-reign/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Ayub Elwhishi",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Ayub's Blog Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <link
+	rel="apple-touch-icon"
+	sizes="180x180"
+	href="/assets/apple-touch-icon.png"
+/>
+<link
+	rel="icon"
+	type="image/png"
+	sizes="32x32"
+	href="/assets/favicon-32x32.png"
+/>
+<link
+	rel="icon"
+	type="image/png"
+	sizes="16x16"
+	href="/assets/favicon-16x16.png"
+/>
+<link rel="manifest" href="/assets/site.webmanifest" />
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/logo.png" alt="Ayub's Blog"></a>
+        
+        <a class="site-title" href="/">
+          Ayub's Blog
+          <span class="site-subtitle">I write about programming, philosophy, and literature.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/posts/">Posts</a>
+            </li><li class="masthead__menu-item">
+              <a href="/notes/">Notes</a>
+            </li><li class="masthead__menu-item">
+              <a href="/scripture/">Scripture</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/me.webp" alt="Ayub Elwhishi" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Ayub Elwhishi</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Developer from Libya. Currently in college.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Kitchener, Ontario</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/buyayub" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+        
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:alloycipher@gmail.com">
+            <meta itemprop="email" content="alloycipher@gmail.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="To Reign a Computer (WIP)">
+    <meta itemprop="description" content="Introduction">
+    <meta itemprop="datePublished" content="2022-10-17T00:00:00-04:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">To Reign a Computer (WIP)
+</h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          9 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#introduction">Introduction</a></li><li><a href="#breakdown-of-tools">Breakdown of Tools</a></li><li><a href="#breakdown-of-skills--wisdom">Breakdown of Skills / Wisdom</a><ul><li><a href="#introduction-1">Introduction</a><ul><li><a href="#ideal-process">Ideal Process</a></li></ul></li><li><a href="#case-testing">Case Testing</a></li><li><a href="#performance-testing">Performance Testing</a></li></ul></li><li><a href="#performance-thoughts">Performance Thoughts</a><ul><li><a href="#choice--consistency">Choice &amp; Consistency</a></li></ul></li><li><a href="#choice-of-tools">Choice of Tools</a><ul><li><a href="#easy-choices">Easy Choices</a><ul><li><a href="#operating-system">Operating System</a></li><li><a href="#text-editor">Text Editor</a></li></ul></li><li><a href="#instruction-set">Instruction Set</a></li><li><a href="#language">Language</a><ul><li><a href="#javascript--typescript">Javascript &amp; Typescript</a></li><li><a href="#cc">C/C++</a></li><li><a href="#functional-programming">Functional Programming?</a></li></ul></li><li><a href="#design">Design</a><ul><li><a href="#markup-languages">Markup Languages</a></li><li><a href="#apps">Apps</a></li></ul></li></ul></li><li><a href="#list-of-things-to-learn">List of Things to Learn</a><ul><li><a href="#non-programming-languages">Non-Programming Languages</a></li><li><a href="#command-line-tools--supporting-tools">Command Line Tools &amp; Supporting Tools</a></li><li><a href="#language-1">Language</a></li><li><a href="#networking">Networking</a></li></ul></li><li><a href="#method">Method</a><ul><li><a href="#definitions">Definitions</a><ul><li><a href="#metatools">Metatools</a></li></ul></li><li><a href="#linux">Linux</a><ul><li><a href="#manuals-and-tutorials">Manuals, and Tutorials</a></li></ul></li></ul></li><li><a href="#industry-knowledge">Industry Knowledge</a></li><li><a href="#bibliography">BIBLIOGRAPHY</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="introduction">Introduction</h2>
+
+<p>I lack a definitive analysis on how to really become a good programmer so I can continuously improve rather than stagnate. This is not a list of what I know, and it’s not a list of what I will know. It’s more a list of what I want to learn personally.</p>
+
+<p>DISCLAIMER: This is for me for what I wish to focus on and master, although I don’t mind people being inspired by it. I encourage you to master what you wish to master, for what you want to do.</p>
+
+<p>DISCLAIMER 2: Heavy perspective shifting, be warned.</p>
+
+<h2 id="breakdown-of-tools">Breakdown of Tools</h2>
+
+<p>First comes the tools. It’s inspired from a few armchair thoughts I had on the epistemology of tools and theory.</p>
+
+<ul>
+  <li>Programming Language
+    <ul>
+      <li>Design paradigm</li>
+      <li>Compiler -   Interpreter -	Specifications</li>
+      <li>Testing library/framework</li>
+    </ul>
+  </li>
+  <li>Text Editor
+    <ul>
+      <li>Traversal
+        <ul>
+          <li>Search (regex)</li>
+          <li>Syntax Traversal</li>
+        </ul>
+      </li>
+      <li>Macros</li>
+      <li>Manipulation</li>
+    </ul>
+  </li>
+  <li>Shell</li>
+  <li>Software Design</li>
+  <li>Debuggers</li>
+  <li>Networking Tools</li>
+  <li>Operating System</li>
+  <li>File Editor</li>
+  <li>Formatter</li>
+  <li>CPU Instruction Set - Learning assembly and low-level programming is not fun, but it’s necessary and can be more useful than people realize. You’re most likely never going to write a program in machine code and assembly, but you’re going to write a lot of programs that turn into machine code and assembly.</li>
+  <li>Design Tools</li>
+  <li>Search Engine or Problem Repository (google/stack overflow)</li>
+  <li>Cryptography Manager</li>
+  <li>Password Manager</li>
+  <li>Database Management System</li>
+</ul>
+
+<h2 id="breakdown-of-skills--wisdom">Breakdown of Skills / Wisdom</h2>
+
+<h3 id="introduction-1">Introduction</h3>
+
+<p>There are a few resources out there for the fabled “10x developer” that I’ll utilize here. I disenjoy the phrase, because it’s dumb, but it does help that intermediate programmers use “10x developer” as an industry keyword for going to the next level, which gets past all the beginner “how to become a better programmer” marketing spam that covers the internet.</p>
+
+<p>For this list, we’re going to go with skills that aren’t tool dependant. For example it doesn’t matter what type of programming language you use, software design and architecture transcends.</p>
+
+<ul>
+  <li>Case Testing</li>
+  <li>Performance Testing/Analysis
+    <ul>
+      <li>Big O</li>
+    </ul>
+  </li>
+  <li>Debugging</li>
+  <li>Error Handling (internal, as opposed to debugging which would be external)</li>
+  <li>DS&amp;A</li>
+  <li>Software Design &amp; Architecture</li>
+  <li>Database Design</li>
+  <li>Documentation Writing (focusing on documentation that aids the self)</li>
+  <li>Cryptography</li>
+</ul>
+
+<!--Just as important as listing important skills, we want to list skills we shouldn't have.-->
+
+<p>Next is theory, a lot of the stuff here precludes a basic understand of math.</p>
+
+<ul>
+  <li>Binary Mathematics</li>
+  <li>Mathematical Logic
+    <ul>
+      <li>Formal Proofs</li>
+    </ul>
+  </li>
+  <li>Discrete Mathematics</li>
+  <li>Theory of Computation
+    <ul>
+      <li>Automota theory</li>
+      <li>Formal Language Theory</li>
+      <li>Computability Theory</li>
+      <li>Computational Complexity Theory</li>
+    </ul>
+  </li>
+  <li>Soft Computing
+    <ul>
+      <li>Neural Networks</li>
+      <li>Fuzzy Logic</li>
+      <li>Evolutionary Computation</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="ideal-process">Ideal Process</h4>
+
+<p>I should note here the process of programming itself is a meta-skill. You’ll see various processes, like the waterfall method, Agile, etc.</p>
+
+<h3 id="case-testing">Case Testing</h3>
+
+<p><a href="">expanded here</a></p>
+
+<h3 id="performance-testing">Performance Testing</h3>
+
+<h2 id="performance-thoughts">Performance Thoughts</h2>
+
+<h3 id="choice--consistency">Choice &amp; Consistency</h3>
+
+<p>While learning tools is good, there is a risk that tools and languages become obsolete. The ideal situation is that the tools become obsolete when I’m part of the development towards new tools.</p>
+
+<p>Another ideal situation is that a tool remains significantly relevant, and will almost certainly continue to remain relevant. Nothing is going to replace Linux anytime soon.</p>
+
+<p>What I don’t want is to have to learn something new every time, frequently, such that I do not retain memory and understanding. The danger to this ironically doesn’t come from obsoletism, but prematurely moving on to something else, not allowing what I just learned to settle and entrench.</p>
+
+<p>This means I’ve essentially learned little to nothing. I believe I’ve learned how to use C pointers 4 times seperately, before it stuck.</p>
+
+<p>It doesn’t mean I didn’t learn anything, concepts can remain, but it becomes of very little use.</p>
+
+<p>That’s why consistency in what you learn matters. If you’re going to learn how to improve your Vim workflow, then you’re going to have to dedicate time to learning and applying it. Applying it frequently so you remember and are able to use it quickly and more efficientally for its use-case.</p>
+
+<p>One way is to place restrictions so you don’t revert to what you already safely know.</p>
+
+<h2 id="choice-of-tools">Choice of Tools</h2>
+
+<h3 id="easy-choices">Easy Choices</h3>
+
+<h4 id="operating-system">Operating System</h4>
+
+<p>Linux is the OS of choice, of course.</p>
+
+<p><strong>Distro</strong></p>
+
+<p>The real hard question is the distro. Just kidding, it’s Debian. Debian is the perfect mix between ease-of-use and minimalism. Universal, and infrastructural, it’s not going to be obsolete for a while.</p>
+
+<p>Stable, free, extremely safe, good documentation. I’ll use Debian.</p>
+
+<h4 id="text-editor">Text Editor</h4>
+
+<p>Text editors of choice are vim-tiny and neovim.</p>
+
+<p>Vim-tiny is relevant because that’s the editor you’re always going to find in your fresh install after you remove emacs. It’s still powerful in its own right, and if you don’t have an internet connection it’s the only thing that’s sane to use.</p>
+
+<p>Using it will also push you out of your comfort zone. It’s what you get when you write “vi” in a barebones linux install, although it’s a misnomer since it’s not the original vi.</p>
+
+<p>The reason we use Neovim instead of Vim is because it provides more features and resources to make the most out of a text editor.</p>
+
+<h3 id="instruction-set">Instruction Set</h3>
+
+<p>For some reason this ended up being a hard decision. It should just be x86, but alas.</p>
+
+<p>The three primary, non-obsolete instruction sets are x86, ARM, and RISC-V.</p>
+
+<p>RISC-V was originally an educational aid, but it’s since developed into an alternative free and open source instruction set architecture. Due to its nature, it’s hard to find much hardware support for it. I’m going to have to emulate it using QEMU, unless I buy an implementation.</p>
+
+<p>On the plus side, due to its educational nature, there are tons of ways to learn it. However, my aim is mastering, not just learning. I’d have to use RISC-V with purpose by its end. And while RISC-V SBCs do exist.</p>
+
+<p>ARM, used by mobile devices, and Apple. ARM isn’t as secretive as Intel is, and likewise it’s the one that I’m going to interact with the most playing with single-board computers. I have a raspberry pi, it’s easy to learn it there so I don’t have to emulate it.</p>
+
+<p>x86, mostly used by PCs, servers, and supercomputers. Most support, most use-cases, most proprietary.</p>
+
+<p>And while I understand I shouldn’t fret so hard on these choices, I heard different instruction sets are complex. The x86 manual is 4834 pages, which I know matters on what I’m looking for, but it’s still ridiculously complicated. It requires a lot of investment.</p>
+
+<p>For that reason I’m learning RISC-V. I like the idea of contributing to the RISC-V software environment, should I ever get the chance. I can always transfer my knowledge easier to x86/ARM after, and it’d be more thorough to play around with a CPU I can emulate rather than program on.</p>
+
+<p>I don’t plan on going deep with ARM and x86 assembly anyways.</p>
+
+<h3 id="language">Language</h3>
+
+<p>Languages aren’t that important. Learning Javascript and C would match 99% of my use-cases. Automation and resources matters more than language in productivity.</p>
+
+<p>Outside of what work requirements I have, the programming languages I want to master are:</p>
+
+<h4 id="javascript--typescript">Javascript &amp; Typescript</h4>
+
+<p>This will be my main scripting language. Machine learning, backend development, frontend development. Javascript (and by extension Typescript) is an extremely extensible language that fits a great majority of use-cases.</p>
+
+<p>There’s multithreading and multiprocessing using workers, concurrency using asynchronous programming and promises.</p>
+
+<p>There are always new and exciting technologies like bun.js that extend javascript. It’s the perfect ecosystem, with enough self-hatred to curb any form of evangelism present in other programming languages.</p>
+
+<h4 id="cc">C/C++</h4>
+
+<p>C/C++ are ubiquotous.</p>
+
+<p>Plenty of the problems people have with them can be automated. C/C++ has package managers to make installing libraries less tedious. You can automate a bunch of things in vim, and you can use linters like any language to make C++ more clean. Tools like CMake and gdb are also their own powerhouse.</p>
+
+<p>What matters when mastering a language like these two is its power, and both C and C++ have plenty of it.</p>
+
+<p>C works really well with tools present in most default systems. Extremely flexible, well-supported, tooled. There’s little reason not to master C.</p>
+
+<h4 id="functional-programming">Functional Programming?</h4>
+
+<p>Functional programming isn’t included here, because these are languages that I want to master for productivity and possibility. I want to explore Lisp and Haskell, but there’d be no reason to master them.</p>
+
+<h3 id="design">Design</h3>
+
+<p>Design is one of those things that programmers love to skimp out on, but it proves an incredibly important skill that can make or break applications.</p>
+
+<p>Apple didn’t get to where it was based on how open, versatile, and cheap their hardware is.</p>
+
+<p>One thing to note is that there is a bunch of cookie-cutter designs going on right now, inspired by the apple minimalism trend that doesn’t seem to die. It’d be easy enough for anyone to use bootstrap, or any other UI/UX component library, but design is about character.</p>
+
+<p>For product, I want to be pleasantly distinct from the rest. Not too similar that I’d blend in, but also not too different that I’d be ostracized for being weird.</p>
+
+<p><a href="https://youtu.be/00rvUpLAhio">Image, people! Image!</a></p>
+
+<p>For personal expression, it’s a sandbox, but design for marketing purposes is formulaic. This includes things like designing for my portfolio and what not.</p>
+
+<p>Designing can be both fun, and horrifyingly painful. The trick is to know what I’m doing.</p>
+
+<p>Here are my tools:</p>
+
+<h4 id="markup-languages">Markup Languages</h4>
+
+<p><strong>HTML &amp; SASS/SCSS (CSS)</strong></p>
+
+<p>Basic for any web application programming. SASS/SCSS is a must. Pure CSS is good, but not good enough for complex applications, I want the modulability and flexibility of Sass to do things like theming and component handling.</p>
+
+<h4 id="apps">Apps</h4>
+
+<p><strong>Figma</strong></p>
+
+<h2 id="list-of-things-to-learn">List of Things to Learn</h2>
+
+<h3 id="non-programming-languages">Non-Programming Languages</h3>
+
+<ul>
+  <li>awk</li>
+  <li>bash</li>
+  <li>UML (unified modelling language) - this is to design large software projects</li>
+  <li>GraphQL</li>
+  <li>HTML/SCSS</li>
+</ul>
+
+<h3 id="command-line-tools--supporting-tools">Command Line Tools &amp; Supporting Tools</h3>
+
+<ul>
+  <li>sed - stream editor for filtering and transforming text</li>
+  <li>git - version control software &amp; life-jacket</li>
+  <li>strace - trace system calls and signals</li>
+</ul>
+
+<p><strong>Binary Utilities</strong> [^1] (for compiled programs)</p>
+
+<ul>
+  <li>ar - creates, modifies, extracts from archives which are mostly used as libraries</li>
+  <li>nm - list symbols from object files</li>
+  <li>objcopy - copy and translate object files</li>
+  <li>objdump - display information from object files</li>
+  <li>ranlib - generate index of archive contents</li>
+  <li>readelf - display contents of elf format files</li>
+  <li>size - list section sizes and total size</li>
+  <li>strings - list printable strings from files</li>
+</ul>
+
+<p>Core Utilties [^2]</p>
+
+<h3 id="language-1">Language</h3>
+
+<ul>
+  <li>javascript &amp; Typescript
+    <ul>
+      <li>nodejs -&gt; bunjs</li>
+      <li>Web APIs</li>
+    </ul>
+  </li>
+  <li>c/c++
+    <ul>
+      <li>conan - package manager for c/c++</li>
+      <li>cscope - interactive examinination of c programs</li>
+    </ul>
+  </li>
+  <li>RISC-V assembly
+    <ul>
+      <li>QEMU</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="networking">Networking</h3>
+
+<ul>
+  <li>HTTP Protocol</li>
+  <li>TCP/IP</li>
+  <li>UDP</li>
+</ul>
+
+<h2 id="method">Method</h2>
+
+<h3 id="definitions">Definitions</h3>
+
+<h4 id="metatools">Metatools</h4>
+
+<p>In the same way there’s metacognition, there are meta-tools. Tools that help you learn about other tools. They’re ideally the first things you want to be familiar with.</p>
+
+<h3 id="linux">Linux</h3>
+
+<p>Linux is going to be the system I spend to a fair bit of time in.</p>
+
+<p>From the list previously, these are our meta-tools in the command-line:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">info</code></li>
+  <li><code class="language-plaintext highlighter-rouge">man</code></li>
+</ul>
+
+<h4 id="manuals-and-tutorials">Manuals, and Tutorials</h4>
+
+<p>First, this website: https://tldp.org</p>
+
+<p>Bookmark it, and do all the tutorials and read all the manuals you want.</p>
+
+<p>Here are the manuals I’ve found around the internet:</p>
+
+<ul>
+  <li>“The Linux User’s Guide”</li>
+  <li>“The Linux System Administrator’s Guide”</li>
+  <li>“Debian User’s Manual”</li>
+  <li>“Debian Adminstrator’s Handbook”</li>
+</ul>
+
+<h2 id="industry-knowledge">Industry Knowledge</h2>
+
+<p>Beyond the written is the unwritten. These are things that are said between people in industry, heard from the latest each other</p>
+
+<hr />
+
+<h2 id="bibliography">BIBLIOGRAPHY</h2>
+
+<p>[^1] GNU Binary Utilities: https://ftp.gnu.org/old-gnu/Manuals/binutils-2.12/html_node/binutils.html#SEC_Top</p>
+
+<p>[^2] GNU Coreutils: https://www.gnu.org/software/coreutils/manual/html_node/index.html</p>
+
+<p>[^3] Measuring developer productivity in 2022 for data-driven decision makers: https://www.gitclear.com/measuring_developer_productivity_a_comprehensive_guide_for_the_data_driven</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-10-17T00:00:00-04:00">October 17, 2022</time></p>
+
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="#" class="pagination--pager disabled">Previous</a>
+    
+    
+      <a href="/project-ideas/" class="pagination--pager" title="Project Ideas
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/my_knowledge_map/" rel="permalink">Mastery and Knowledge Mapping
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">An overview of my academic knowledge map, making the data traversable to master a field in a meticulous and holistic fashion.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/quine_on_what/" rel="permalink">Quine, On What There Is
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          14 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Summarization
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/plot_analysis/" rel="permalink">Plot Analysis
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Intro
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/programming_language/" rel="permalink">My Progamming Language
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          10 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">My writing on “reigning” a computer comes with a great question: where on earth do I start? The issue comes by the chasm between application and theory, and ...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Ayub Elwhishi. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
