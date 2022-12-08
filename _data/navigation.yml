@@ -2,10 +2,10 @@
 main:
   - title: "Posts"
     url: /posts/
-  - title: "Notes"
-    url: /notes/
-  - title: "Scripture"
-    url: /scripture/
+  # - title: "Notes"
+  # url: /notes/
+  # - title: "Scripture"
+  # url: /scripture/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

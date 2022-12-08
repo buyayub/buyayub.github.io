@@ -1,9 +1,13 @@
 ---
-title: Quine, On What There Is
+title: "Summary: On What There Is by Quine"
+excerpt: A personal study on Quine's \'On What There Is\'. It is the first of many studies to a metaphysics textbook I have. 
 ---
 
-## Summarization
+A student's summary on Quine's famous essay in metaphysics. I make no illusion of authority here, you have no reason to trust my reading. 
 
+## Summary
+
+<!--
 <details markdown="block">
 <summary markdown="span"> Definitions </summary>
 	
@@ -14,10 +18,11 @@ Ontology
 : A collection of what one takes to exist, both in real and hypothetical contexts.
 
 </details>
+-->
 
 Quine considers the ontological problem to be the question: What is there?
 
-The naive answer is to say that all that there is, is everything. However Quine's rebutes by saying that this is a tautology.
+The naive answer is to say that all that there is, is everything. However Quine's refutes this answer by saying that this is a tautology.
 
 <details markdown="block" class="pn_note">
 <summary markdown="span"> Personal Note </summary>
@@ -39,11 +44,11 @@ He words this in an interesting way though, he says that the Narrator cannot adm
 <details markdown="block" class="pn_note">
 <summary markdown="span"> Personal Note </summary>
 
-Is it different? I ask this because I'm wondering if saying "Admitting McX believes something exists means that it must exist", is different from saying "Something exists if we say it doesn't, because we refer to it." If it is, then it's clearly erroneous because admitting McX believes something, doesn't mean he references that something, it references his belief in relation to something.
+This is addressed towards the end of the paper, ironically.
 
 </details>
 
-He goes on later to basically say "Non-being must in some sense be, otherwise what is it that there is not?", which is going back to what I explained before.
+Quine goes on later to basically say of McX's belief that "Non-being must in some sense be, otherwise what is it that there is not?", which is going back to what I explained before.
 
 He calls this idea of something existing by virtue of being referenced as "<abbr class="pn_ann"><button class="mark">Plato's beard</button><button class="dfn"><span markdown="span">Because it dulls the blade of Occam's razor.</span></button></abbr>"
 
@@ -57,10 +62,6 @@ He proves the difference by saying the Parthenon exists, but it exists seperate 
 <summary markdown="span"> Personal Note </summary>
 
 Interesting parallels between this and a memory pointer/reference in computation
-
----
-
-There is some trouble here, as McX is saying that the entity must exist by virtue of reference, yet Quine saying that it's incorrect because there's a distinction between reference and entity. This doesn't make sense, since it doesn't talk about the relation between reference and the entity's existence. If he's implying that they are seperate, as in reference doesn't determine the existence of an entity, then it still doesn't attack McX's belief that reference determines existence, as it only iterates the negation.
 
 </details>
 
@@ -238,7 +239,7 @@ Quine asks for this section: how do we mediate opposing ontologies? Ontologies, 
 <details markdown="block" class="pn_note">
 <summary markdown="span"> Personal Note </summary>
 
-Quine's use of the word ontology isn't made very clear, and from my interpretation he means by what we regard exists, as noted by the quote:
+Quine's use of the word ontology isn't written out clearly for my novice eyes, but from my interpretation he means by what we regard exists, as noted by the quote:
 
 > We commit ourselves to an ontology containing numbers when we say there are prime numbers larger a million. 
 
@@ -246,4 +247,76 @@ I also want to include that what he means by ontology is also **how** we determi
 
 </details>
 
+He says it can't necessarily be by his answer "To be is to be the value of a variable." As he says it's moreso to test if something is consistent with its own ontology. Rather, he states that mediating involves one sticking to their own "semantical plane", which is synonym for an ontology. 
+
+McX's belief in a non-existant object exists as utterances of belief in Quine's ontology, allowing reference without implying the existence of that entity in Quine's ontology.
+
+Having each other's own ontologies allows for commonality or overlap between them, which allows for discussions in the differences between in these ontologies. 
+
+<details markdown="block" class="pn_note">
+<summary markdown="span"> Personal Note </summary>
+
+The concept of an "ontology" and "semantical plane" shares very similar characteristics to the "worldview" in sociology/anthropology, and schema in psychology.
+
+</details>
+
+He likens an ontology to a scientific theory. He says they're similar in the way they organize the concepts, but the the ontology is pervasive in everything. Although, I'm a bit shaky in understanding his last sentence ("To whatever ... adoption of an ontology.")
+
+... (This part is hell, I'll figure it out later)
+
+He suggests two conceptual schemes put forward by a principle of simplicity. The first he suggests is one of pure sensation, where everything is ascribed to itself. The second is one where our mind wants to simplify all our raw experiences into single things. When we see two pennies, we wouldn't register each individually, but as two instances of a single type. 
+
+He calls the first the phenomenalistic conceptual scheme, and the second is the physicalistic conceptual scheme.
+
+The physicalist one can't be translated into the phenomenalistic language.
+
+He states that from the conceptual scheme of elementary rational numbers, the broader world of advanced rational and irrational numbers would be a myth simpler than the truth (elementary rational numbers) yet containing literal truth as a scattered part.
+
+It's simpler because it says more with less, so an algorithm within elementary rational numbers is more complicated than one using more advanced tooling. However, in the world of the elementary, it's just a convenient tool (or myth) to simplify what already is. 
+
+I'd think of it like machine language and C. machine language shows vistages of itself in C, and as far as machine language is concerned, C is an abstraction of itself and isn't real.
+
+Thus is the same between the phenomenalistic point of view, and the physicalistic point of view.
+
+A Platonistic ontology is a physicalistic conceptual scheme, that is a myth to the phenomenalistic conceptual scheme. 
+
+In analyziing the myth of mathematics, he makes clear that Godel's problem shows its nature as a myth. In physics, it's the nature of light as a wave and a particle. He also draws an analogue between heisenberg's uncertainty principle and godel's incompleteness theorem.
+
+Finally, he's nice enough to lay out a conclusive summary:
+
++ Quine undertook to show that some common arguments in favor of certain ontologies are fallacious, at the start.
++ Quine provides a standard to decide the ontological commitments of a theory.
++ The question of what ontology to adopt is still open.
+	+ he encourages exploring the phenomenalistic and and physicalistic conceptual scheme and their interplays
++ Myth is relative.
+
+Although to sum it all up, I'll bring up that sentence that gets quoted so much: 
+
+> To be is to be the value of a bound variable.
+
+## (Short) (Personal) Analysis
+
+Things get rocky at the end for me in understanding, but also the most interesting. Regardless, I want to move on from this work because it's evident I might stay weeks on this if I don't.
+
+My analysis isn't too sophisticated. I adhere to a principle of socratic skepticism. I know in that I know nothing, not until I learn more at least. 
+
+I'm a bit overwhelmed by just how deep the pool is. It's not that I worry about getting the concepts, but this is like learning these concepts in another person's language, so you're stuck trying to understand the jargon and the terms, not knowing which is which in your own understanding. A common one that I had trouble with was the distinction between a priori and a posteriori truths.
+
+At first it seemed a problem with timing. If you know a chair is under you when you stand up, you don't have to use experience to check it, even though technically it's a posteriori, "there is a chair under me."
+
+It's not until an explanation brought up math that a priori made sense. You don't need sensory experience to explain one plus one is two, it is evident *in itself*, while saying the chair is under me is not evident *in itself*. The *in itself* being the important part.
+
+So if "there is a chair under me", it's not that I remember, it's that if I'm asked to prove it again, I have to check experience. If I have to prove whether 1+1=2 is true again, then I don't need to check experience.
+
+It's that simple. 
+
+It's stumbling blocks like these that worry me. The idea to carry in such a case is this: If so many intelligent people thought so long about a problem that I brush off, then I'm the idiot. I'll continue reading, I have a lot more pages left in this metaphysics anthology. 
+
+### To-Do For Second Iteration
+
+I'm going to revisit this write up and improve it. Here are the to-dos to better understand what I'm reading.
+
+1. Find the keywords, and figure them out, (conceptual scheme, 
+2. Create argument map.
+3. Introduce side readings.
 
